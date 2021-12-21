@@ -2,7 +2,7 @@
 ***
 
 ## Kateryna Moskalenko
-![my photo](myPic.jpg)
+![my photo](myPic.png)
 ***
 #### Junior Frontend Developer
 ***
