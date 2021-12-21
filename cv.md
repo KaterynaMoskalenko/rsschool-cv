@@ -3,14 +3,16 @@
 
 ## Kateryna Moskalenko
 ![my photo](myPic.png)
+
 ***
 #### Junior Frontend Developer
 ***
 #### Contact information:
-__phone:__ + 38 (050) 74 00 926
-__e-mail:__ emochkaom@gmail.com
-__telegram:__ Kateryna Moskalenko
-__[LinkedIn](https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)__
+__phone:__ + 38 (050) 74 00 926  
+__e-mail:__ emochkaom@gmail.com  
+__telegram:__ Kateryna Moskalenko  
+__[LinkedIn](https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)__  
+
 ***
 #### About myself:
 
