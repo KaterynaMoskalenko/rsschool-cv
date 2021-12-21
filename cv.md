@@ -49,6 +49,14 @@ function finalGrade(exam, projects) {
 }
 ```
 ***
+#### Course:
+* [x] Beetroot Academy
+
+***
+#### Languages:
+* English - preintermediate/intermediate
+* Russian - native
+* Ukraine - intermediate
 
 
 
