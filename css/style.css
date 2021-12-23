@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #abb99e;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main {
+  width: 90%;
+  min-height: 100vh;
+  margin: 2rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+}
+
+.main__sidebar {
+  padding: 1rem;
+  grid-column: span 2;
+  height: 100%;
+  background-color: #536a6b;
+}
+
+.main__right {
+  grid-column: span 5;
+  height: 100%;
+  background-color: #fbf2e6;
+}
+
+.profile {
+  width: 100%;
+  border-bottom: 2px double #abb99e;
+}
+
+.profile__picture {
+  width: 100%;
+}
+
+.profile__picture img {
+  width: 100%;
+  border-radius: 50%;
+  border: 7px double #abb99e;
+}
+
+.profile__name, .profile__career {
+  font-size: 1.6rem;
+  color: #fbf2e6;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.profile__career {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+.profile__name {
+  padding: 1.2rem 0;
+}
+
+.contact__title {
+  padding-top: 2rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fbf2e6;
+}
+
+.contact__list {
+  padding: 1rem 0;
+}
+
+.contact__list li {
+  padding: 0.4rem 0;
+}
+
+.contact__list li i {
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  color: #deeecf;
+}
+
+.contact__list li a {
+  display: block;
+  color: #a8a3a3;
+}
+/*# sourceMappingURL=style.css.map */
