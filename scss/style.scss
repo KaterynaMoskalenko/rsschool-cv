@@ -23,7 +23,7 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     &__sidebar {
-        padding: 1rem;
+        padding: 2rem;
         grid-column: span 2;
         height: 100%;
         background-color: #536a6b;
@@ -143,4 +143,16 @@ body {
 }
 .webpack-progress {
     width: 40%;
+}
+.reference {
+    &__subtitle {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: #f7f7f7;
+    }
+    &__career {
+        color: #ccc;
+        padding: 0.4rem;
+    }
 }

@@ -35,7 +35,7 @@ body {
 }
 
 .main__sidebar {
-  padding: 1rem;
+  padding: 2rem;
   grid-column: span 2;
   height: 100%;
   background-color: #536a6b;
@@ -169,5 +169,17 @@ body {
 
 .webpack-progress {
   width: 40%;
+}
+
+.reference__subtitle {
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.reference__career {
+  color: #ccc;
+  padding: 0.4rem;
 }
 /*# sourceMappingURL=style.css.map */
