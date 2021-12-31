@@ -54,6 +54,7 @@ body {
 
 .profile__picture {
   width: 100%;
+  text-align: center;
 }
 
 .profile__picture img {
@@ -181,5 +182,137 @@ body {
 .reference__career {
   color: #ccc;
   padding: 0.4rem;
+}
+
+/*=== Right side ===*/
+.aboutme-container,
+.experience-container,
+.education-container {
+  padding: 2rem 3rem;
+}
+
+.aboutme-container__info,
+.experience-container__info,
+.education-container__info {
+  line-height: 1.5rem;
+  color: #2d3748;
+  font-size: 1.1rem;
+}
+
+.right-title {
+  color: #33493d;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.right-title::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 0.2rem;
+  border-radius: 15px;
+  background-color: #33493d;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.experience-container__timeline,
+.education-container__timeline {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.experience-container__tl-title,
+.education-container__tl-title {
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  color: #2d3748;
+}
+
+.tl-content {
+  border-left: 1px solid #ccc;
+  padding-left: 2rem;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.tl-title_2,
+.para {
+  color: #4d5b5c;
+  padding-left: 2rem;
+}
+
+.tl-title_2::before {
+  content: "";
+  position: absolute;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #abb99e;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 0;
+}
+
+/*Media querries*/
+@media screen and (max-width: 825px) {
+  .right-title::after {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .right-title::after {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .timeline {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .main__sidebar {
+    grid-columns: span 3;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .main__right {
+    grid-columns: span 4;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .picture img {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .picture img {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .profile__name {
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
