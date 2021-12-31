@@ -21,7 +21,7 @@ body {
     min-height: 100vh;
     margin: 2rem auto;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
     &__sidebar {
         padding: 2rem;
         grid-column: span 2;
@@ -96,7 +96,7 @@ body {
     }
     &__item {
         display: -ms-grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr, 1fr;
         padding: 0.4rem 0;
     }
 }
@@ -190,7 +190,7 @@ body {
 .education-container {
     &__timeline {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr, 1fr;
     }
     &__tl-title {
         letter-spacing: 1px;
@@ -232,22 +232,22 @@ body {
 }
 .timeline {
     @media screen and (max-width: 780px) {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 .main__sidebar {
     @media screen and (max-width: 780px) {
-        grid-columns: span 3;
+        grid-column: span 3;
     }
 }
 .main__right {
     @media screen and (max-width: 780px) {
-        grid-columns: span 4;
+        grid-column: span 4;
     }
 }
 .main {
     @media screen and (max-width: 1200px) {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 .picture img {
