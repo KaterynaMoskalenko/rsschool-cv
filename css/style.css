@@ -30,8 +30,8 @@ body {
   margin: 2rem auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
-      grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
 }
 
 .main__sidebar {
@@ -113,8 +113,8 @@ body {
 
 .skill__item {
   display: -ms-grid;
-  -ms-grid-columns: 1fr, 1fr;
-      grid-template-columns: 1fr, 1fr;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   padding: 0.4rem 0;
 }
 
@@ -223,8 +223,8 @@ body {
 .education-container__timeline {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr, 1fr;
-      grid-template-columns: 1fr, 1fr;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 .experience-container__tl-title,
