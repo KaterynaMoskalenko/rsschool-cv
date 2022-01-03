@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" href="assets/favicon.ico">
 
 
     <title>CV</title>
@@ -18,24 +20,24 @@
 <body>
 
     <header class="header">
-        <button class="burger">
+        <div class="burger">
             <span class="burger__btn"></span>
-        </button>
+        </div>
         <nav class="nav">
-            <ul>
-                <li class="nav__itme">
+            <ul class="menu">
+                <li class="nav__item">
                     <a href="#about-me">ABOUT ME</a>
                 </li>
-                <li class="nav__itme">
+                <li class="nav__item">
                     <a href="#skills">SKILLS</a>
                 </li>
-                <li class="nav__itme">
+                <li class="nav__item">
                     <a href="#code">CODE</a>
                 </li>
-                <li class="nav__itme">
+                <li class="nav__item">
                     <a href="#projects">MY PROJECTS</a>
                 </li>
-                <li class="nav__itme">
+                <li class="nav__item">
                     <a href="#contact">MY CONTACT</a>
                 </li>
             </ul>
@@ -51,12 +53,12 @@
                 <p class="profile__career">Front-end developer (beginner)</p>
             </div>
 
-            <div class="contact">
-                <h2 class="contact__title">CONTACT INFO</h2>
+            <div id="contact" class="contact">
+                <h2 class="contact__title main-title">CONTACT INFO:</h2>
                 <ul class="contact__list">
                     <li>
                         <i class="fa fa-phone"> PHONE :</i>
-                        <a href="tel: 0507400926">+38(050) 7400926</a>
+                        <a href="tel:0507400926">+38(050) 7400926</a>
                     </li>
                     <li>
                         <i class="fa fa-fax"> E-MAIL :</i>
@@ -73,10 +75,254 @@
                     </li>
                 </ul>
             </div>
+            <div id="skills" class="skill">
+                <h2 class="skill__title main-title">SKILLS:</h2>
+                <ul>
+                    <li class="skill__item item">
+                        <h5 class="item__title">Java Script</h5>
+                        <div class="item__progress">
+                            <div class="item__line js-progress"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item item">
+                        <h5 class="item__title">HTML</h5>
+                        <div class="item__progress">
+                            <div class="item__line html-progress"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item item">
+                        <h5 class="item__title">CSS</h5>
+                        <div class="item__progress">
+                            <div class="item__line css-progress"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item item">
+                        <h5 class="item__title">jQuery</h5>
+                        <div class="item__progress">
+                            <div class="item__line jquery-progress"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item item">
+                        <h5 class="item__title">Vue.js</h5>
+                        <div class="item__progress">
+                            <div class="item__line vuejs-progress"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item item">
+                        <h5 class="item__title">Node js</h5>
+                        <div class="item__progress">
+                            <div class="item__line nodejs-progress"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item item">
+                        <h5 class="item__title">Gulp</h5>
+                        <div class="item__progress">
+                            <div class="item__line gulp-progress"></div>
+                        </div>
+                    </li>
+                    <li class="skill__item item">
+                        <h5 class="item__title">Webpack</h5>
+                        <div class="item__progress">
+                            <div class="item__line webpack-progress"></div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="reference">
+                <h2 class=" main-title">REFERENCES:</h2>
+                <div class="reference__wrapper">
+                    <h6 class="reference__subtitle">Ilya Shelkovij</h6>
+                    <p class="reference__career">Lower in IT company</p>
+                    <ul class="contact__list">
+                        <li>
+                            <i class="fa fa-phone"> PHONE :</i>
+                            <a href="tel:0954773847">+38(095) 4773847</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-fax"> E-MAIL :</i>
+                            <a class="link" href="mailto:jlia@gmail.com">WRITE HIM</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reference__wrapper">
+                    <h6 class="reference__subtitle">Ivan Vasilenko</h6>
+                    <p class="reference__career">Front-end developer</p>
+                    <ul class="contact__list">
+                        <li>
+                            <i class="fa fa-phone"> PHONE :</i>
+                            <a href="tel:0667403296">+38(066) 7403296</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-fax"> E-MAIL :</i>
+                            <a class="link" href="mailto:ivanv@gmail.com">WRITE HIM</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </aside>
-        <section class="main__right"></section>
+        <section class="main__right">
+            <div id="about-me" class="aboutme-container">
+                <h2 class="right-title">ABOUT ME</h2>
+                <p class="aboutme-container__info">I am 43. But I am vey active women. All my life I worked for bank
+                    field. Last 10 years I
+                    was at position as a head bank branch. But my last job made the acquaintance of IT field.
+                    <br><br>Since
+                    then I fell in love development. I graduated Beetroot Academy for Front-end developer and now I am
+                    here.
+                    <br><br>
+                    <strong>My English level - preintermedia/intermedia</strong>
+                </p>
+            </div>
+            <div class="experience-container">
+                <h2 class="right-title">MY EXPERIENCE</h2>
+                <div class="experience-container__timeline">
+                    <div class="left-tl-content">
+                        <h5 class="experience-container__tl-title">Beetroot Academy</h5>
+                        <p class="para">2021</p>
+                    </div>
+                    <div class="right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="experience-container__tl-title  tl-title_2">Junior Front-end
+                                Developer</h5>
+                            <p class="para">The foutrh course at Front-end developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-container__timeline">
+                    <div class="left-tl-content">
+                        <h5 class="experience-container__tl-title">UKRSIBBANK BNP Paribas</h5>
+                        <p class="para">2021-2008</p>
+                    </div>
+                    <div class="right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="experience-container__tl-title  tl-title_2">Head of bank branch</h5>
+                            <p class="para">Last work - UKRSIBBANK BNP Paribas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education-container">
+                <h2 class="right-title">EDUCATION</h2>
+                <div class="education-container__timeline">
+                    <div class="left-tl-content">
+                        <h5 class="education-container__tl-title">Beetroot Academy</h5>
+                        <p class="para">2021</p>
+                    </div>
+                    <div class="right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="education-container__tl-title  tl-title_2">Junior Front-end
+                                Developer</h5>
+                            <p class="para">The foutrh course at Front-end developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-container__timeline">
+                    <div class="left-tl-content">
+                        <h5 class="education-container__tl-title">Ukrainian state university of railway transport</h5>
+                        <p class="para">2001-1995</p>
+                    </div>
+                    <div class="right-tl-content">
+                        <div class="tl-content">
+                            <h5 class="education-container__tl-title  tl-title_2">Accounting and auditing</h5>
+                            <p class="para">Last work - UKRSIBBANK BNP Paribas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="key-container">
+                <h2 class="right-title">KEY STRENGTH</h2>
+                <ul>
+                    <li>Hardworking</li>
+                    <li>Responsible</li>
+                    <li>Sociable</li>
+                    <li>Quick learner</li>
+                    <li>Goal-oriented</li>
+                </ul>
+            </div>
+            <div id="code" class="code-container">
+                <h2 class="right-title">CODE EXAMPLE</h2>
+                <p><i>Instance from codewars:</i><br>
+                    function should return a number (final grade). There are four types of final grades:</p>
+                <ul>
+                    <li>* 100, if a grade for the exam is more than 90 or if a number of completed projects more than
+                        10.</li>
+                    <li>* 90, if a grade for the exam is more than 75 and if a number of completed projects is minimum
+                        5.</li>
+                    <li>* 75, if a grade for the exam is more than 50 and if a number of completed projects is minimum
+                        2.</li>
+                    <li>* 0, in other cases:</li>
+                    <li><a href="https://www.codewars.com/users/Moskalenko/completed_solutions">codewars</a></li>
+                </ul>
+                <pre>
+function finalGrade(exam, projects) {
+    if (exam <span>&gt;</span> 90 || projects <span>&gt;</span>10) { 
+                return 100;
+    } else if (exam <span>&gt;</span> 75 && projects <span>&gt;&#61;</span> 5) { 
+                return 90;
+    } else if (exam <span>&gt;</span> 50 && projects <span>&gt;&#61;</span>2) { 
+                return 75;
+    } else { 
+                return 0;
+                } 
+    }</pre>
+
+            </div>
+            <div id="projects" class="project-container">
+                <h2 class="right-title">MY PROJECTS</h2>
+                <div class="bd-flex">
+                    <div class="works__img">
+                        <a href="https://github.com/KaterynaMoskalenko/CBD" class="works__link">
+                            <img src="./img/bg.png" alt="CBD">
+                            <div class="works__data">
+                                <i class="bx bx-link-alt"></i> <span class="works__title">Work 1</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="works__img">
+                        <a href="https://github.com/KaterynaMoskalenko/21092021Monticello" class="works__link">
+                            <img src="./img/building.png" alt="Monticello">
+                            <div class="works__data">
+
+                                <i class="bx bx-link-alt"></i>
+                                <span class="works__title">Work 2</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="works__img">
+                        <img src="./img/hero-bg.png" alt="website">
+                        <div class="works__data">
+                            <a href="#" class="works__link">
+                                <i class="bx bx-link-alt"></i></a>
+                            <span class="works__title">Work 3</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <a href="https://github.com/KaterynaMoskalenko/Brohmaon" class="works__link">
+                            <img src="./img/build.png" alt="Brohmaon">
+                            <div class="works__data">
+                                <i class="bx bx-link-alt"></i>
+                                <span class="works__title">Work 4</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <a href="https://github.com/KaterynaMoskalenko" class="footer__github" target="blank">
+            <img src="./img/GitHub-Mark-32px.png" alt="logo">
+            MY GitHub</a>
+        <p class="footer__year">Jan 2022</p>
+        <a href="https://rs.school/js/">
+            <img src="./img/rs_school_js.svg" width="60" height="50" alt="logo">
+        </a>
+
+    </footer>
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/app.js"></script>
 
 </body>
 
