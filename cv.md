@@ -3,7 +3,7 @@
 ***
 
 ## Kateryna Moskalenko
-![my photo](/20220502_154905.jpg)
+![my photo](/rsschool-cv/myPic.png)
 
 ***
 #### Junior Frontend Developer
@@ -19,9 +19,9 @@ __telegram:__ [@KateMoska](https://t.me/KateMoska)
 
 __GitHub:__ [KaterynaMoskalenko](https://github.com/KaterynaMoskalenko) 
 
-__Discord:__ @KaterynaMoskalenko
+__Discord:__ @KaterynaMoskalenko                               h
 
-__LinkedIn:__ [katerina-moskalenko-9b6933178/](https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)
+__LinkedIn:__ [katerina-moskalenko-9b6933178/](https://www.linkedin.com/in/kateryna-moskalenko-9b6933178/)
 
 
 ***
