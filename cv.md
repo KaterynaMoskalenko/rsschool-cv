@@ -19,7 +19,7 @@ __telegram:__ [@KateMoska](https://t.me/KateMoska)
 
 __GitHub:__ [KaterynaMoskalenko](https://github.com/KaterynaMoskalenko) 
 
-__Discord:__ @KaterynaMoskalenko                               h
+__Discord:__ @KaterynaMoskalenko                           
 
 __LinkedIn:__ [katerina-moskalenko-9b6933178/](https://www.linkedin.com/in/kateryna-moskalenko-9b6933178/)
 
