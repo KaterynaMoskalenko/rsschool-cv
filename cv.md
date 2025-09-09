@@ -10,9 +10,11 @@
 #### Contact information:
 __phone:__ + 38 (050) 74 00 926  (Ukraine)
 __phone:__ + 49 (160) 49 85 128  (Germany)
-__e-mail:__ emochkaom@gmail.com  
-__telegram:__ @KateMoska 
-__[LinkedIn](https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)__  
+__[e-mail:]__ emochkaom@gmail.com  
+__[telegram]:__ @KateMoska 
+__[GitHab]:__ https://github.com/KaterynaMoskalenko/
+__[Discord]:__ @KaterynaMoskalenko
+__[LinkedIn]__(https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)
 
 ***
 #### About myself:
@@ -27,9 +29,9 @@ And nowadays  I am here ...
 * [x] HTML - 70%
 * [x] CSS - 70%
 * [x] JS - 65%
-* [X] jQuery - 65%
-* [x] Vue.js - 60%
-* [ ] React
+* [X] jQuery - 45%
+* [x] Vue.js - 40%
+* [x] React - 50%
 * [ ] Angular
 ***
 #### Instance from codewars:
@@ -52,11 +54,16 @@ function finalGrade(exam, projects) {
 }
 ```
 ***
+#### Education:
+* [x] Diplom economist in Transport Academy
+
 #### Course:
 * [x] Beetroot Academy
+* [x] IT Hillel School
 
 ***
 #### Languages:
 * English - preintermediate/intermediate
-* Russian - native
-* Ukraine - intermediate
+* Germany - preintermediate
+* Russian - free
+* Ukraine - native
