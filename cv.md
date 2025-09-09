@@ -21,7 +21,7 @@ __GitHub:__ [KaterynaMoskalenko](https://github.com/KaterynaMoskalenko)
 
 __Discord:__ [KaterynaMoskalenko] (@KaterynaMoskalenko)
 
-__LinkedIn:__ [Kateryna Moskalenko](https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)
+__LinkedIn:__ [https://www.linkedin.com/in/katerina-moskalenko-9b6933178/](https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)
 
 
 ***
