@@ -9,13 +9,20 @@
 #### Junior Frontend Developer
 ***
 #### Contact information:
-__phone:__ + 38 (050) 74 00 926  (Ukraine)
-__phone:__ + 49 (160) 49 85 128  (Germany)
-__[e-mail:]__ emochkaom@gmail.com  
-__[telegram]:__ @KateMoska 
-__[GitHab]:__ https://github.com/KaterynaMoskalenko/
-__[Discord]:__ @KaterynaMoskalenko
-__[LinkedIn]__(https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)
+__phone:__ +38 (050) 74 00 926 (Ukraine)  
+
+__phone:__ +49 (160) 49 85 128 (Germany)  
+
+__e-mail:__ [emochkaom@gmail.com](mailto:emochkaom@gmail.com)  
+
+__telegram:__ [@KateMoska](https://t.me/KateMoska)  
+
+__GitHub:__ [KaterynaMoskalenko](https://github.com/KaterynaMoskalenko) 
+
+__Discord:__ [KaterynaMoskalenko] (@KaterynaMoskalenko)
+
+__LinkedIn:__ [Kateryna Moskalenko](https://www.linkedin.com/in/katerina-moskalenko-9b6933178/)
+
 
 ***
 #### About myself:
